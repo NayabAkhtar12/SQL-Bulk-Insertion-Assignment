@@ -29,7 +29,7 @@ namespace Demo
             constr = ConfigurationManager.ConnectionStrings["dbconn"].ConnectionString;
             con = new SqlConnection(constr);
             con.Open();
-
+            //createdString
         }
         protected void AddProduct_Click(object sender, EventArgs e)
         {
